@@ -5,9 +5,14 @@ let cats = [
 		numClicks: 0
 	},
 	{
-		name: "Spasoje",
+		name: "Donald",
 		img: "cat2.jpg",
-		numClicks:0
+		numClicks: 0
+	},
+	{
+		name: "Ana",
+		img: "cat3.jpg",
+		numClicks: 0
 	}
 ];
 
