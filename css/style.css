@@ -1,3 +1,21 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
 .container {
 	display: grid;
 	grid-template-columns: 1fr 1fr;
@@ -6,4 +24,5 @@
 
 article {
 	width: 45%;
+	padding-left: 2em;
 }
