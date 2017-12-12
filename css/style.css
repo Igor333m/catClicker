@@ -16,11 +16,40 @@ body {
     padding: 0;
 }
 
+header {
+	text-align: center;
+}
+
+
+aside {
+	padding-bottom: 5%;
+	text-align: center;
+}
+
+ul {
+	list-style-type: none;
+	display: inline-block;
+	background-color: red;
+	cursor: pointer;
+	padding: 1em 2em;
+	margin-left: 1em;
+	border-radius: 0.4em;
+	box-shadow: 2px 5px 18px #888888;
+
+}
+
+li {
+	color: white;
+	font-weight: bold;
+	
+}
+
 .container {
 	display: grid;
 	grid-template-columns: 1fr 1fr;
 	grid-column-gap: 15px;
 }
+
 
 article {
 	width: 45%;
